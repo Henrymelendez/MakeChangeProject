@@ -6,8 +6,8 @@
 
 ## Technologies/Skills used
 
-*Java
-*Eclipse
+* Java
+* Eclipse
 
 
 ## Lessons Learned 
