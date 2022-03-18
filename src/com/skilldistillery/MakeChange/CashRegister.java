@@ -12,9 +12,9 @@ public class CashRegister {
 	    double changeDue = tender - cost;
 	    // Make doubles into ints and to nearest deciml point;
 	    int change = (int)(Math.round(changeDue*100)); // this will round change to reduce float point error in answer and round nearest whole
-	    // create an arry to store the values
+	    // create an array to store the values
 	    ArrayList<Integer> dollar = new ArrayList<Integer>();
-	    // conditinal statements
+	    // conditinal statements 
 	    if(changeDue == 0){
 	      System.out.println("No change needed!");
 	    } // if amount less than cost utilizing basic java
