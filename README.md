@@ -4,7 +4,9 @@
 
 ## Overview
 The project was to make a cash register application that would take in input from the user
-and return the change in the highest denomination. 
+and return the change in the highest denomination. To a customer based on the purchase price and the amount tendered. We will also notify the attendant how many of each piece of currency ($20 ,$10 ,$5 ,$1, .25c, .10c, .05c, .01c) is needed to make the change for the customer.
+
+
 
 ## User Stories
 User Story #1 The user is prompted asking for the price of the item.
