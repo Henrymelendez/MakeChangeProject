@@ -25,9 +25,9 @@ public class CashRegister {
 		// make sure the change is in double to account for change.
 		double changeDue = tender - cost;
 
-		// round change to the nearest whole number
-		// change will store the cahnge due rounded to the nearest whole number and type
-		// cast to an int
+		/* round change to the nearest whole number
+		 change will store the change due rounded to the nearest whole number and type
+	     cast to an int */
 		int change = (int) (Math.round(changeDue * 100)); // this will round change to reduce float point error in
 															// answer
 
@@ -73,11 +73,12 @@ public class CashRegister {
 		// TODO Auto-generated method stub
 
 		Scanner kb = new Scanner(System.in);
-		System.out.print("How much is the cost?: ");
+		System.out.print("What is the price of the item ?: ");
 		double cost = kb.nextDouble();
-		System.out.print("How much is Tendered?: ");
+		System.out.print("How much is Tendered by customer ?: ");
 		double tender = kb.nextDouble();
 		tenderchange(cost, tender);
+		kb.close();
 
 	}
 
